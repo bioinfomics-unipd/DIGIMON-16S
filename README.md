@@ -29,7 +29,10 @@ The automated nhmmer step makes use of two Hidden Markov Model files, one for Ba
 ### Launching the program
 The program is provided as a .py file. To permit the executability of the script modify the permissions of the .py file. 
 Open a terminal session in the directory where the program is located and enter the following command line: 
-`python3 ./meta_script.py [-h] -f  -i  [-l] [-e]`
+
+```bash
+python3 ./meta_script.py [-h] -f  -i  [-l] [-e]
+```
 
 ### Arguments
 The arguments used in the command line define both the program parameters and the ones in the automated nhmmer command.
@@ -57,7 +60,10 @@ The arguments used in the command line define both the program parameters and th
 
 ### Example
 
-`python3 ./meta_script.py -f BACTERIA -i bac -l 300 -e 0.005`
+
+```bash
+python3 ./meta_script.py -f BACTERIA -i bac -l 300 -e 0.005
+```
 The command runs on each fasta files stored in the BACTERIA subfolder searching for alligments between the sequences and the bacterial hmm. Only alligned sequences longer than 300 bases and with a significance more than 0.005 are considered valid and collected into the output.
 
 ## Output
