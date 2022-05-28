@@ -59,7 +59,7 @@ The arguments used in the command line define both the program parameters and th
 - `-l <number>` or `--lenght <number>`
   Minimum 16S sequence lenght: specifies the minimum lenght of alligment to extract the 16S sequences. It is expressed in number of bases. Default value is 0
 
--`-e` or `--evaue` 
+- `-e` or `--evaue` 
   E-value threeshold: allows to run the nhmmer command with a specified e-value. It needs to be  float with “.” as a decimal separator. Default value is 0.0001
 
 
