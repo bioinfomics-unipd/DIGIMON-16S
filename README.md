@@ -1,10 +1,8 @@
-# DIGIMON-16S
-_This code was developed as part of a project carried out by Erinda Rruci, Giulia Fiorito, Sofia Stocco, Marwan Sharawy during the course of Microbial Metagenomics (Molecular Biology master degree) at the University of Padova. The project was supervised by Prof. Stefano Campanaro, Dr. Maria Silvia Morlino, Dr. Edoardo Bizzotto, and Dr. Gabriele Ghiotto._
-
-## IDentIfication of 16s Genes In MicrObial geNomes
-
+# DIGIMON-16S IDentIfication of 16s Genes In MicrObial geNomes
 - logo (optional)
 - brief introduction about script usage
+
+_This code was developed as part of a project carried out by Erinda Rruci, Giulia Fiorito, Sofia Stocco, Marwan Sharawy during the course of Microbial Metagenomics (Molecular Biology master degree) at the University of Padova. The project was supervised by Prof. Stefano Campanaro, Dr. Maria Silvia Morlino, Dr. Edoardo Bizzotto, and Dr. Gabriele Ghiotto._
 
 ## Requirements
 This program has been designed to work with a specific folder structure:
@@ -19,29 +17,23 @@ This program has been designed to work with a specific folder structure:
 The automated nhmmer step makes use of two Hidden Markov Model files, one for Bacteria and one for Archaea. This program comes with two hmm models for the 16S gene, one for Archaeal genomes (arc.ssu.rnammer.hmm) and one for Bacterial genomes (bac.ssu.rnammer.hmm)
 
 ### Programs
-[HMMER (v.3.3.3)](http://hmmer.org/)
-
-[Python 3.8+](https://www.python.org/)
+- [HMMER (v.3.3.3)](http://hmmer.org/)
+- [Python 3.8+](https://www.python.org/)
 
 ### Packages
-
-[Bio.SeqIO](https://biopython.org/wiki/Download)
+- [Bio.SeqIO](https://biopython.org/wiki/Download)
  
 
 ## Command line instructions
+
 ### Launching the program
-
-
 The program is provided as a .py file. To permit the executability of the script modify the permissions of the .py file. 
-
 Open a terminal session in the directory where the program is located and enter the following command line: 
-
-python3 ./meta_script.py [-h] -f  -i  [-l] [-e] 
-
-
-The arguments used in the command line define both the program parameters and the ones in the automated nhmmer command.
+`python3 ./meta_script.py [-h] -f  -i  [-l] [-e]`
 
 ### Arguments
+The arguments used in the command line define both the program parameters and the ones in the automated nhmmer command.
+
 #### Mandatory arguments
 - `-f <folder_name>` or `--folder <folder_name>`
   Input genomes folder: indicates the folder where the microbial genomes are located. As a requirement this folder must be a subfolder of the working directory.
