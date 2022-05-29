@@ -1,6 +1,6 @@
 # DIGIMON-16S IDentIfication of 16s Genes In MicrObial geNomes
-- logo (optional)
-- brief introduction about script usage
+Nowadays, the identification of 16S genes is used in modern analysis approaches of microbial genomes to discriminate between different bacterial genera or species, accounting for intragenomic variation between different 16S rRNA gene copies. 
+
 
 _This code was developed as part of a project carried out by Erinda Rruci, Giulia Fiorito, Sofia Stocco, Marwan Sharawy during the course of Microbial Metagenomics (Molecular Biology master degree) at the University of Padova. The project was supervised by Prof. Stefano Campanaro, Dr. Maria Silvia Morlino, Dr. Edoardo Bizzotto, and Dr. Gabriele Ghiotto._
 
