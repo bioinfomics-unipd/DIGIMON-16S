@@ -76,7 +76,7 @@ The software is designed to give only one output:
 _MAYBE WE SHOULD PUT s IN CAPITAL LETTER _
 
 
-
+## Acknowledgements
 _This code was developed as part of a project carried out by Erinda Rruci, Giulia Fiorito, Sofia Stocco, Marwan Sharawy during the course of Microbial Metagenomics (Molecular Biology master degree) at the University of Padova. The project was supervised by Prof. Stefano Campanaro, Dr. Maria Silvia Morlino, Dr. Edoardo Bizzotto, and Dr. Gabriele Ghiotto._
 
 
