@@ -39,22 +39,25 @@ The arguments used in the command line define both the program parameters and th
 
 #### Mandatory arguments
 - `-f <folder_name>` or `--folder <folder_name>`
+  
   Input genomes folder: indicates the folder where the microbial genomes are located. As a requirement this folder must be a subfolder of the working directory.
 
-- `-i bac` or `--inputmodel bac` or `-i bacteria` or `--inputmodel bacteria`
-  `-i arc` or `--inputmodel arc` `-i archea` or `--inputmodel archea`
-
+- `-i bac` or `--inputmodel bac` or `-i bacteria` or `--inputmodel bacteria` or `-i arc` or `--inputmodel arc` `-i archea` or `--inputmodel archea`
+  
   Input hmm: defines which .hmm should be used by nhmmer as query. The software provides two possible .hmm files, one for bacteria and one for archea.
 
 #### Facultative arguments
 
 - `-h` or `--help`
+  
   Help: shows a help message with an explanation of the arguments and quit the program
 
 - `-l <number>` or `--lenght <number>`
+  
   Minimum 16S sequence lenght: specifies the minimum lenght of alligment to extract the 16S sequences. It is expressed in number of bases. Default value is 0
 
 - `-e` or `--evaue` 
+  
   E-value threeshold: allows to run the nhmmer command with a specified e-value. It needs to be  float with “.” as a decimal separator. Default value is 0.0001
 
 
