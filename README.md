@@ -2,7 +2,7 @@
 Nowadays, the identification of 16S genes is used in modern analysis approaches of microbial genomes to discriminate between different bacterial genera or species, accounting for intragenomic variation between different 16S rRNA gene copies. 
 
 
-_This code was developed as part of a project carried out by Erinda Rruci, Giulia Fiorito, Sofia Stocco, Marwan Sharawy during the course of Microbial Metagenomics (Molecular Biology master degree) at the University of Padova. The project was supervised by Prof. Stefano Campanaro, Dr. Maria Silvia Morlino, Dr. Edoardo Bizzotto, and Dr. Gabriele Ghiotto._
+
 
 ## Requirements
 This program has been designed to work with a specific folder structure:
@@ -72,11 +72,12 @@ The command runs on each fasta file stored in the BACTERIA subfolder searching f
 ## Output
 The software is designed to give only one output:
 - `<first5lettersofgenome>_16s.fasta`
-  It's a fasta file obtained for each input genome containing the extracted alligned 16S sequences and the fasta IDs. _ IS IT CORRECT? _
-_ MAYBE WE SHOULD PUT s IN CAPITAL LETTER _
+  It's a fasta file obtained for each input genome containing the extracted alligned 16S sequences and the fasta IDs. _IS IT CORRECT? _
+_MAYBE WE SHOULD PUT s IN CAPITAL LETTER _
 
 
 
+_This code was developed as part of a project carried out by Erinda Rruci, Giulia Fiorito, Sofia Stocco, Marwan Sharawy during the course of Microbial Metagenomics (Molecular Biology master degree) at the University of Padova. The project was supervised by Prof. Stefano Campanaro, Dr. Maria Silvia Morlino, Dr. Edoardo Bizzotto, and Dr. Gabriele Ghiotto._
 
 
 
