@@ -67,12 +67,12 @@ The arguments used in the command line define both the program parameters and th
 ```bash
 python3 ./meta_script.py -f BACTERIA -i bac -l 300 -e 0.005
 ```
-The command runs on each fasta file stored in the BACTERIA subfolder searching for alligments between genomes and the bacterial hmm. Only alligned sequences longer than 300 bases and with a significance more than 0.005 are considered valid and collected into the output.
+The command runs on each fasta file stored in the BACTERIA subfolder searching for aligments between genomes and the bacterial hmm. Only alligned sequences longer than 300 bases and with a significance more than 0.005 are considered valid and collected into the output.
 
 ## Output
 The software is designed to give only one output:
 - `<first5lettersofgenome>_16s.fasta`
-  It's a fasta file obtained for each input genome containing the extracted alligned 16S sequences and the fasta IDs. _IS IT CORRECT? _
+  It's a fasta file obtained for each input genome containing the extracted aligned 16S sequences and the fasta IDs. _IS IT CORRECT? _
 _MAYBE WE SHOULD PUT s IN CAPITAL LETTER _
 
 
