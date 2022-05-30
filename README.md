@@ -1,5 +1,5 @@
 # DIGIMON-16S IDentIfication of 16s Genes In MicrObial geNomes
-Nowadays, the identification of 16S genes is used in modern analysis approaches of microbial genomes to discriminate between different bacterial genera or species, accounting for intragenomic variation between different 16S rRNA gene copies. 
+Nowadays, the identification of 16S genes is used in modern analysis approaches of microbial genomes to discriminate between different bacterial genera, accounting for intragenomic variation between different 16S rRNA gene copies. To facilitate the extraction of 16S gene sequences from microbial genomes we developed DIGIMON-16S, a new bioinformatic tool based on HMMER software and Hidden Markov Model which allows us to extract the aligned sequences as a FASTA file. Further implementations are needed for the extraction of the regions closer to the aligned ones, in order to perform a proper taxonomic assignment. 
 
 INSERISCI INSERISCI INSERISCI INSERISCI INSERISCI
 
