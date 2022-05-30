@@ -66,8 +66,7 @@ The command runs on each fasta file stored in the BACTERIA subfolder searching f
 ## Output
 The software is designed to give only one output:
 - `<first5lettersofgenome>_16s.fasta`
-  It's a fasta file obtained for each input genome containing the extracted aligned 16S sequences and the fasta IDs. _IS IT CORRECT? _
-_MAYBE WE SHOULD PUT s IN CAPITAL LETTER _
+  It's a fasta file obtained for each input genome containing the extracted aligned 16S sequences and the fasta IDs.
 
 
 ## Authors information
