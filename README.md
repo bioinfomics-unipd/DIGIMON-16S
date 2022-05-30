@@ -1,15 +1,11 @@
 # DIGIMON-16S IDentIfication of 16s Genes In MicrObial geNomes
 Nowadays, the identification of 16S genes is used in modern analysis approaches of microbial genomes to discriminate between different bacterial genera, accounting for intragenomic variation between different 16S rRNA gene copies. To facilitate the extraction of 16S gene sequences from microbial genomes we developed DIGIMON-16S, a new bioinformatic tool based on HMMER software and Hidden Markov Model which allows us to extract the aligned sequences as a FASTA file. Further implementations are needed for the extraction of the regions closer to the aligned ones, in order to perform a proper taxonomic assignment. 
 
-INSERISCI INSERISCI INSERISCI INSERISCI INSERISCI
-
-
 ## Requirements
 This program has been designed to work with a specific folder structure:
 - .fasta/.fna/.fa/.faa/.ffn files in a subfolder to the working directory. The user has to provide the name of the folder as an argument when launching the program from the command line;
 - .hmm file for nhmmer has to be in the same directory where the software is located;
 - the input genome folder needs to be in the same directory of the script.
-
 
 ### Files
 The automated nhmmer step makes use of two Hidden Markov Model files, one for Bacteria and one for Archaea. This program comes with two hmm models for the 16S gene, one for Archaeal genomes (arc.ssu.rnammer.hmm) and one for Bacterial genomes (bac.ssu.rnammer.hmm)
